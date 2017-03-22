@@ -14,6 +14,7 @@
 		7400933E1E795FD5005FF6B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7400933D1E795FD5005FF6B5 /* Assets.xcassets */; };
 		740093411E795FD5005FF6B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7400933F1E795FD5005FF6B5 /* LaunchScreen.storyboard */; };
 		7400934D1E79604C005FF6B5 /* NSObject+RLProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7400934C1E79604C005FF6B5 /* NSObject+RLProperty.m */; };
+		74C93A641E82639C00E08C11 /* RLAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C93A631E82639C00E08C11 /* RLAutoDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		740093421E795FD5005FF6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7400934B1E79604C005FF6B5 /* NSObject+RLProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RLProperty.h"; sourceTree = "<group>"; };
 		7400934C1E79604C005FF6B5 /* NSObject+RLProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RLProperty.m"; sourceTree = "<group>"; };
+		74C93A621E82639C00E08C11 /* RLAutoDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLAutoDictionary.h; sourceTree = "<group>"; };
+		74C93A631E82639C00E08C11 /* RLAutoDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLAutoDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				740093381E795FD5005FF6B5 /* TestViewController.m */,
 				7400934B1E79604C005FF6B5 /* NSObject+RLProperty.h */,
 				7400934C1E79604C005FF6B5 /* NSObject+RLProperty.m */,
+				74C93A621E82639C00E08C11 /* RLAutoDictionary.h */,
+				74C93A631E82639C00E08C11 /* RLAutoDictionary.m */,
 				7400933A1E795FD5005FF6B5 /* Main.storyboard */,
 				740093311E795FD5005FF6B5 /* Supporting Files */,
 			);
@@ -156,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C93A641E82639C00E08C11 /* RLAutoDictionary.m in Sources */,
 				740093391E795FD5005FF6B5 /* TestViewController.m in Sources */,
 				740093361E795FD5005FF6B5 /* AppDelegate.m in Sources */,
 				7400934D1E79604C005FF6B5 /* NSObject+RLProperty.m in Sources */,

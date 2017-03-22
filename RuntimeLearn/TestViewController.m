@@ -9,6 +9,7 @@
 #import "TestViewController.h"
 #import "NSObject+RLProperty.h"
 #import <objc/runtime.h>
+#import "RLAutoDictionary.h"
 
 @interface TestViewController ()
 
@@ -26,18 +27,25 @@
 //    NSLog(@"%@", object.test);
     
     //交换方法实现
-    [self method1];
-    [self method2];
+//    [self method1];
+//    [self method2];
+//    
+//    [self exchangeMethods];
+//    
+//    [self method1];
+//    [self method2];
+//    
+//    [self exchangeMethods];
+//    
+//    [self method1];
+//    [self method2];
     
-    [self exchangeMethods];
-    
-    [self method1];
-    [self method2];
-    
-    [self exchangeMethods];
-    
-    [self method1];
-    [self method2];
+    //消息转发之动态方法解析
+    RLAutoDictionary *autoDictionary = [[RLAutoDictionary alloc] init];
+    autoDictionary.string = @"动态方法解析";
+    autoDictionary.number = @1;
+    autoDictionary.date = [NSDate date];
+    NSLog(@"%@, %@, %@", autoDictionary.string, autoDictionary.number, autoDictionary.date);
 }
 
 - (void)exchangeMethods
